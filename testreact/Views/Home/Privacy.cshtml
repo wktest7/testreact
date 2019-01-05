@@ -21,6 +21,7 @@
 <div id="mojAlert" class="alert alert-success">
     <strong>Success!</strong> This alert box could indicate a successful or positive action.
 </div>
+ <div id="app"></div>
 
 @section Scripts {
 <script>
@@ -33,4 +34,16 @@
         });
     });
 </script>
+
+  <script>
+    ReactDOM.render(
+      React.createElement(
+        'h1',
+        null,
+        'Hello World z reacta!'
+      ),
+      document.getElementById('app')
+    );
+
+      </script>
 }
