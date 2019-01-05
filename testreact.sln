@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testreact", "testreact\testreact.csproj", "{406F7286-C3BD-4104-836A-4454005D9D5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{406F7286-C3BD-4104-836A-4454005D9D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406F7286-C3BD-4104-836A-4454005D9D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406F7286-C3BD-4104-836A-4454005D9D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406F7286-C3BD-4104-836A-4454005D9D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79E7D65A-A0E9-4BE4-9C6E-E8B477C9D5E9}
+	EndGlobalSection
+EndGlobal
