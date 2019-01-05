@@ -7,3 +7,30 @@
 <h2>to jest privacy</h2>
 
 <p>Use this page to detail your site's privacy policy.</p>
+
+
+<button id="ukryjBtn" type="button" class="btn btn-primary">
+    ukryj alert
+</button>
+
+<button id="pokaBtn" type="button" class="btn btn-danger">
+    poka alert
+</button>
+
+
+<div id="mojAlert" class="alert alert-success">
+    <strong>Success!</strong> This alert box could indicate a successful or positive action.
+</div>
+
+@section Scripts {
+<script>
+    $(document).ready(function () {
+        $("#ukryjBtn").click(function () {
+            $("#mojAlert").hide();
+        });
+        $("#pokaBtn").click(function () {
+            $("#mojAlert").show();
+        });
+    });
+</script>
+}
